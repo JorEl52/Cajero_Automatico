@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /*background: linear-gradient(to right, #1c7699e0, #93c9d1);*/
+    background: #3399ff;
+}
+
+section {
+    margin: 3%;
+}
+
+img {
+    width: 250px;
+
+}
+
+.login-container {
+    background-color: white;
+    width: 400px;
+    height: 280px;
+    border-radius: 25px;
+    z-index:1;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 65px;
+    padding-top: 15px;
+    width: 270px;
+    
+}
+
+label {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 23px;
+    margin: 0;
+    margin-left: 70px;
+    
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+input {
+    color: black;
+    border: 1px solid #101010;
+    border-radius: 15px;
+    cursor:text;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0f87c8;
+    /*background: linear-gradient(to right, #19b7cf, #cfe6e9);*/
+    margin-top: 13px;
+    border-radius: 20px;
+    border: 2px solid #101010;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 7px;
+}
+
+button:hover {
+    background-color: #0c5c87;
+    /*background: linear-gradient(to right, #127888, #8fa8ab);*/
+}
+
+fieldset {
+    margin: 0;
+    height: 110px;
+    width: 280px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    
+}
+
+.center {
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    animation: ripple 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+  }
+  
+  .small{
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+  }
+  
+  .medium{
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+  }
+  
+  .large{
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    bottom: -300px;
+  }
+  
+  .xlarge{
+    width: 800px;
+    height: 800px;
+    left: -400px;
+    bottom: -400px;
+  }
+  
+  .xxlarge{
+    width: 1000px;
+    height: 1000px;
+    left: -500px;
+    bottom: -500px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }
+
